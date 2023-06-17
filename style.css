@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Moirai+One");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+
+body{
+  background-color: #E3D4AD;
+}
+header {
+  background-color: #968769;
+}
+
+h2, nav{
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  padding-bottom: 80px;
+}
+header h1 {
+  margin: 0;
+  color: #dbd2d2;
+   font-family: 'Times New Roman', Times, serif;
+  font-size:100px;
+  text-align: center;
+  letter-spacing: 30px;
+  padding-top: 100px;
+}
+
+h3{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+img{
+  width: 80%
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.link {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration:none
+}
+
+a:link    { color: white;}
+a:visited { color: white;}
+a:hover   { color: goldenrod;}
+a:active  { color: pink;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 75%;
+  height:auto;
+}
+
+.box {
+  margin: 20px 10%;
+  background-color: #f5f5dc;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.solid{
+  border: 1px solid #000;
+}
+
+.btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  
+}
+
+.btn-default {
+  color: #333;
+  background-color: #EAAB00;
+  border: 1px solid #ccc;
+}
+
+
+
